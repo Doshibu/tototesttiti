@@ -1,0 +1,203 @@
+{
+    "currentPage": {
+        "displayTemplate": "sportVitrine",
+        "displayName": "Statistiques",
+        "autorefresh": 30000
+    },
+    "tracking": {
+        "omniture": {
+            "prop4": "MyCtvOS - Mode expert",
+            "prop5": "MyCtvOS - Mode expert - Ligue 1",
+            "prop6": "MyCtvOS - Mode expert - Ligue 1 - Stats",
+            "pageName": "MyCtvOS - Mode expert - Ligue 1 - Stats",
+            "channel": "MyCtvOS",
+            "eVar31": "[ME] Stats Ligue 1",
+            "prop10": "Contenu",
+            "prop11": "Autres",
+            "prop12": "Consumer"
+        }
+    },
+    "strates": [{
+            "type": "match",
+            "id": "67ee81c1-2671-4633-bde5-78d40c50efc4",
+            "status": "8",
+            "displayStatus": "En cours",
+            "displayTime": "08 sept.",
+            "homeTeam": {
+                "displayName": "Nantes",
+                "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/d3pv35hprv5u49.cloudfront.net/59404953a7ed0600044cfbfa/d9b4a833-77c2-4ee4-b011-bb86e85d781b/1511864222971_Fanions-L1_L1-Nantes.png",
+                "score": 6
+            },
+            "awayTeam": {
+                "displayName": "Paris SG",
+                "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/d3pv35hprv5u49.cloudfront.net/59404953a7ed0600044cfbfa/0d00196a-a007-429e-88ce-5d988c4ec08c/1511891457988_Fanions-L1_L1-PSG.png",
+                "score": 5,
+                "winner": true
+            }
+        },
+        {
+            "type": "stats",
+            "homeTeam": {
+                "displayName": "Nantes",
+                "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/d3pv35hprv5u49.cloudfront.net/59404953a7ed0600044cfbfa/d9b4a833-77c2-4ee4-b011-bb86e85d781b/1511864222971_Fanions-L1_L1-Nantes.png",
+                "score": 6,
+                "color": {
+                    "primary": "0xFFFF00",
+                    "secondary": "0xffffff"
+                }
+            },
+            "awayTeam": {
+                "displayName": "Paris SG",
+                "URLImage": "https://thumb.canalplus.pro/http/unsafe/{resolutionXY}/d3pv35hprv5u49.cloudfront.net/59404953a7ed0600044cfbfa/0d00196a-a007-429e-88ce-5d988c4ec08c/1511891457988_Fanions-L1_L1-PSG.png",
+                "score": 5,
+                "winner": true,
+                "color": {
+                    "primary": "0x004070",
+                    "secondary": "0xffffff"
+                }
+            },
+            "contents": [{
+                    "type": "vsBar",
+                    "title": "Possession (%)",
+                    "contentID": "PossessionPercentage",
+                    "homeTeam": {
+                        "score": 29,
+                        "displayName": "29"
+                    },
+                    "awayTeam": {
+                        "score": 71,
+                        "displayName": "71"
+                    },
+                    "subScore": [{
+                        "title": "Blabla",
+                        "homeTeam": {
+                            "score": 60,
+                            "displayName": "1 (993%)"
+                        },
+                        "awayTeam": {
+                            "score": 18,
+                            "displayName": "11 (20%)"
+                        }
+                    }]
+                },
+                {
+                    "type": "vsBar",
+                    "title": "Tirs",
+                    "contentID": "Shot",
+                    "homeTeam": {
+                        "score": 8,
+                        "displayName": "8"
+                    },
+                    "awayTeam": {
+                        "score": 23,
+                        "displayName": "23"
+                    },
+                    "subScore": [{
+                            "title": "Tirs cadrés",
+                            "homeTeam": {
+                                "score": 1,
+                                "displayName": "5 (56%)"
+                            },
+                            "awayTeam": {
+                                "score": 11,
+                                "displayName": "20 (48%)"
+                            }
+                        },
+                        {
+                            "title": "Blabla",
+                            "homeTeam": {
+                                "score": 60,
+                                "displayName": "1 (993%)"
+                            },
+                            "awayTeam": {
+                                "score": 18,
+                                "displayName": "11 (20%)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "vsBar",
+                    "title": "Coups francs",
+                    "contentID": "Free Kick",
+                    "homeTeam": {
+                        "score": 14,
+                        "displayName": "14"
+                    },
+                    "awayTeam": {
+                        "score": 13,
+                        "displayName": "13"
+                    }
+                },
+                {
+                    "type": "vsBar",
+                    "title": "Corners",
+                    "contentID": "Corner Kick",
+                    "homeTeam": {
+                        "score": 6,
+                        "displayName": "6"
+                    },
+                    "awayTeam": {
+                        "score": 7,
+                        "displayName": "7"
+                    }
+                },
+                {
+                    "type": "vsBar",
+                    "title": "Hors-jeux",
+                    "contentID": "Offside",
+                    "homeTeam": {
+                        "score": 3,
+                        "displayName": "3"
+                    },
+                    "awayTeam": {
+                        "score": 5,
+                        "displayName": "5"
+                    }
+                },
+                {
+                    "type": "vsBar",
+                    "title": "Fautes",
+                    "contentID": "Foul",
+                    "homeTeam": {
+                        "score": 10,
+                        "displayName": "10"
+                    },
+                    "awayTeam": {
+                        "score": 9,
+                        "displayName": "9"
+                    }
+                },
+                {
+                    "type": "vsBar",
+                    "title": "Cartons jaunes",
+                    "contentID": "Caution",
+                    "homeTeam": {
+                        "score": 0,
+                        "displayName": "0"
+                    },
+                    "awayTeam": {
+                        "score": 1,
+                        "displayName": "1"
+                    }
+                },
+                {
+                    "type": "vsBar",
+                    "title": "Cartons rouges",
+                    "contentID": "Expulsion",
+                    "homeTeam": {
+                        "score": 1,
+                        "displayName": "1"
+                    },
+                    "awayTeam": {
+                        "score": 0,
+                        "displayName": "0"
+                    }
+                }
+            ]
+        }
+    ],
+    "empty": {
+        "displayName": "Aucune statistiques disponible pour le moment"
+    }
+}
