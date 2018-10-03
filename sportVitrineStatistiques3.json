@@ -67,18 +67,7 @@
                     "awayTeam": {
                         "score": 50,
                         "displayName": "50"
-                    },
-                    "subScore": [{
-                        "title": "Tirs cadrés",
-                        "homeTeam": {
-                            "score": 5,
-                            "displayName": "5 (13%)"
-                        },
-                        "awayTeam": {
-                            "score": 20,
-                            "displayName": "20 (48%)"
-                        }
-                    }]
+                    }
                 },
                 {
                     "type": "vsBar",
